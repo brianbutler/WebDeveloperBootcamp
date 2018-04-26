@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form Project</title>
+</head>
+<body>
+
+	<h1>Register</h1>
+
+	<form>
+		<DIV>
+			<label for="firstName">First Name:</label>
+			<input id="firstName" name="firstName" type="text" placeholder="First Name" required>
+			<label for="lastName">Last Name:</label>
+			<input id="lastName" name="lastName" type="text" placeholder="Last Name" required>
+		</DIV>
+
+		<DIV>
+			<input name="gender" type="radio" value="Male">Male</input>
+			<input name="gender" type="radio" value="Female">Female</input>
+			<input name="gender" type="radio" value="Other">Other</input>
+		</DIV>
+
+		<DIV>
+			<label for="username">Email:</label>
+			<input type="email" placeholder="email" id="username" required>
+			<label for="password">Password:</label>
+			<input type="password" placeholder="password" id="password" minlength="5" maxlength="10" required>
+		</DIV>
+
+		<DIV>
+			<label>Birthday:</label>
+			<select name="month">
+				<option value="Jan">Jan</option>
+				<option value="Feb">Feb</option>
+				<option value="Mar">Mar</option>
+			</select>
+			<select name="day">
+				<option value="1">1</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+			</select>
+			<select name="year">
+				<option value="2000">2000</option>
+				<option value="2001">2001</option>
+				<option value="2002">2002</option>
+			</select>			
+		</DIV>
+
+		<DIV>
+			<label for="accept">I agree to the terms and conditions</label>
+			<input id="accept" name="accept" type="checkbox" name="">
+		</DIV>
+
+		<input type="submit" name="">
+	</form>
+
+
+</body>
+</html>
